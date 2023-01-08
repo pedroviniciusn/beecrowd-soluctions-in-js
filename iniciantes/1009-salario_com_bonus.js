@@ -5,7 +5,7 @@ const input = readFileSync("/dev/stdin", "utf8")
 	.map(String);
 
 function calculate_total(sales, salary, percentage = 15) {
-  total = sales * (percentage/100) + salary; 
+  let total = sales * (percentage/100) + salary; 
   return total;
 }
 
