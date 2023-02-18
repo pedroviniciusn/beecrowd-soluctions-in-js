@@ -1,2 +1,4 @@
 package.json
 text.txt
+node_modules
+yarn.lock
